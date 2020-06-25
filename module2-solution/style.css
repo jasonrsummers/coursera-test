@@ -1,0 +1,150 @@
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 175%;
+}
+
+.row {
+	width: 100%;
+	margin: none;
+}
+
+.container1 {
+	width: 26%;
+	height: 100%;
+	background-color: gray;
+	border: 1px solid black;
+	margin-left: 2%;
+	margin-right: 0;
+	margin-top: 20px;
+	margin-bottom: auto;
+	display: inline-block;
+	position: relative;
+}
+
+.container2 {
+	width: 26%;
+	height: 100%;
+	background-color: gray;
+	border: 1px solid black;
+	margin-left: 2%;
+	margin-right: 0;
+	margin-top: 20px;
+	margin-bottom: auto;
+	display: inline-block;
+	position: relative;
+}
+
+.container3 {
+	width: 26%;
+	height: 100%;
+	background-color: gray;
+	border: 1px solid black;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 20px;
+	margin-bottom: auto;
+	display: inline-block;
+	position: relative;
+}
+
+#chicken {
+	font-size: 125%;
+	background-color: pink;
+	width: 90px;
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	float: right;
+}
+
+#beef {
+	font-size: 125%;
+	color: white;
+	background-color: red;
+	width: 90px;
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;	float: right;
+}
+
+#sushi {
+	font-size: 125%;
+	background-color: yellow;
+	width: 90px;
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	float: right;
+}
+
+p {
+ padding-top: 16px;
+ padding-left: 12px;
+ padding-right: 12px;
+ margin-top: 24px
+ background-color: gray;
+ width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container1 {
+		width: 46%;
+		
+	}
+
+	.container2 {
+		width: 46%;
+	
+	}
+
+	.container3 {
+		width: 94.5%;
+		float: left
+		magrin-left: 2.5%;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.container1 {
+		width: 30%;
+
+	}
+
+	.container2 {
+		width: 30%;
+	
+	}
+		.container3 {
+		width: 30%;
+	
+	}
+}
+
+@media (max-width: 767px) {
+	.container1 {
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+
+	}
+
+	.container2 {
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	
+	}
+		.container3 {
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	
+	}
+}
