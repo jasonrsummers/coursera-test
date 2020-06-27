@@ -1,0 +1,90 @@
+
+/** HEADER **/
+/*#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+*/
+
+#header-nav {
+  background-color: #add8e6;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Roboto', serif;
+  color: #000080;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  vertical-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #000080;
+    text-transform: bold;
+    border: 1px solid black;
+}
+
+
+#heading h2 {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 16px;
+  color: #000080;
+  font-weight bold;
+}
+
+#dish {
+  background: #add8e6;
+  border: 2px solid gray;
+  margin: 8px;
+
+}
+
+#menu-item {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  vertical-align: top;
+  color: #000080;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+#item-descr {
+  position: relative;
+  width: 100%;
+  color: #000080;
+  padding: 12px;
+}
+
